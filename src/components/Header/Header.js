@@ -10,7 +10,7 @@ const Header = (props) => {
 
     return (
         <header>
-            <img src={logo} alt="Logo" />
+            <Link onClick={() => {props.onBackground(props.homepage)}} to="/"><img src={logo} alt="Logo" /></Link>
             <hr/>
             <ul>
                 <li className={location.pathname.includes('/') && location.pathname.length <= 1 ? "active" : "unactive"}><Link  onClick={() => {props.onBackground(props.homepage)}} to="/"><span>00</span>HOME</Link></li>
