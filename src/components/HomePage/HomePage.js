@@ -5,8 +5,7 @@ import explore from '../../images/oval.png'
 import { Link, useLocation } from 'react-router-dom'
 
 const HomePage = (props) => {
-    const location = useLocation()
-    console.log(location);
+
     return (
         <Fragment>
             <section className='main-page'>

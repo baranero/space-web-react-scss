@@ -25,13 +25,6 @@ function App() {
     window.localStorage.setItem('background', background)
   }, [background])
 
-
-
-  console.log(background);
- 
-
-
-
   return (
 
       <BrowserRouter>

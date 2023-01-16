@@ -1,44 +1,38 @@
 import { useLocation } from 'react-router-dom';
 import './Destination.sass';
 import destination from '../../images/destination-background.jpg'
+import { Fragment, useState } from 'react';
+import DestinationItem from './DestinationItem';
 
 const Destination = (props) => {
     
+    const [pickedMoon, setPickedMoon] = useState("MOON")
 
+    const pickedMoonHandler = (moon) => {
+        setPickedMoon(moon)
+    }
+
+    const filteredMoon = props.data.filter(moon => {
+        return moon.name === pickedMoon
+    })
 
     return (
-        <section className='container'>
-            <div className='title'>
-                <h5><span>01</span> PICK YOUR DESTINATION</h5>
-            </div>
-            <div className='image'>
-                <img src={props.data[0].image} alt="Moon" />
-            </div>
-            <div className='navigate'>
-                <ul>
-                    {props.data.map((item) => (
-                        <li key={item.id}>{item.name}</li>
-                    ))}
-                </ul>
-            </div>
-            <div className='name'>
-                <h2>{props.data[0].name}</h2>
-            </div>
-            <div className='description'>
-                <p>{props.data[0].description}</p>
-            </div>
-            <div className="line-cont">
-                <hr className='line'/>
-            </div>
-            <div className='distance'>
-                <span>AVG.DISTANCE</span>
-                <h6>{props.data[0].distance}</h6>
-            </div>
-            <div className='time'>
-                <span>EST. TRAVEL TIME</span>
-                <h6>{props.data[0].travel}</h6>
-            </div>
-        </section>
+        <Fragment>
+            {filteredMoon.map((item) => (
+                <DestinationItem
+                    data={props.data}
+                    key={item.id}
+                    id={item.id}
+                    name={item.name}
+                    description={item.description}
+                    distance={item.distance}
+                    image={item.image}
+                    travel={item.travel}
+                    onPickedMoon={pickedMoonHandler}
+                />
+            ))}
+
+        </Fragment>
     )
 }
 
