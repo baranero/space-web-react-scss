@@ -1,5 +1,5 @@
-import { Fragment, useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.sass';
 import Destination from './components/Destination/Destination';
 import Header from './components/Header/Header';
@@ -7,9 +7,6 @@ import HomePage from './components/HomePage/HomePage';
 import {moonsData} from './data'
 import homepage from "./images/homepage-background.jpg"
 import destination from "./images/destination-background.jpg"
-
-
-console.log(moonsData);
 
 function App() {
 

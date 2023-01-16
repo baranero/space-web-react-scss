@@ -1,6 +1,3 @@
-import { useLocation } from 'react-router-dom';
-import './Destination.sass';
-import destination from '../../images/destination-background.jpg'
 import { Fragment, useState } from 'react';
 import DestinationItem from './DestinationItem';
 

@@ -1,5 +1,5 @@
-@import '../../styles/variables'
-
+@import '../../styles/_variables'
+@import '../../styles/__fonts'
 
 header 
     align-items: center
@@ -8,7 +8,7 @@ header
     justify-content: space-between
     margin: 40px 0 0 55px
     font-family: $head-5-font
-    color: $font-color-white
+    color: $color-white
 
     img
         height: 48px
@@ -18,21 +18,36 @@ header
         list-style: none
         padding: 0
         width: 540px
-        padding: 39px 167px 38px 123px
+        padding: 0px 167px 0px 123px
         display: flex
         justify-content: space-between
         background: #ffffff0a
         backdrop-filter: blur(4px)
-
+        height: 100%
 
     li
-        display: inline-block
-        font-size: 16px
+        @extend %subhead-3
+        cursor: pointer
+    
+    .unactive:hover
+        border-bottom: 3px solid #ffffff80
+        border-top: 3px solid rgba(0, 0, 0, 0)
+
+    .active
+        border-bottom: 3px solid $color-white
+        border-top: 3px solid rgba(0, 0, 0, 0)
     
     span
-        font-size: 16px
+        @extend %subhead-3
         font-weight: 700
         margin-right: 11px
+
+    a
+        text-decoration: none
+        color: $color-white
+        height: 100%
+        display: flex
+        align-items: center
     
     hr
         border: none
