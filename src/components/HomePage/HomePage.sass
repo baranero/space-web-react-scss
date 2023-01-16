@@ -1,25 +1,52 @@
 @import '../../styles/variables'
 
+
 .main-page
-    display: flex
-    justify-content: space-between
+    display: grid
+    grid-template-columns: 440px 1fr 274px
+    grid-template-rows: 500px
+    margin: 251px 0 131px 8%
+    overflow: hidden
+    column-gap: 40px
     
     .main-page-description
         color: $color-white
-        width: 400px
+        grid-column: 1/2
 
         h5
             font-family: $head-5-font
             font-size: $head-5-size
+            margin: 0 0 24px
+            letter-spacing: 4.75px
 
         h1
             font-family: $head-1-font
             font-size: $head-1-size
+            margin: 0 0 24px
+            font-weight: 400
 
         p
             font-family: $head-5-font
+            font-size: 18px
             line-height: 32px
+            margin: 0
+            height: 130px
+            letter-spacing: 2px
 
     img
         width: 274px
-        height: 274px
+        height: 274px 
+        border-radius: 100%
+        transform: translate(-60px, -60px)
+
+
+    img:hover
+        box-shadow: 0 0 0 60px rgba(94, 94, 94, 0.5)
+        transition: 0.15s
+
+    a
+        align-self: flex-end
+        justify-self: flex-end
+        grid-column: 3/4
+
+
