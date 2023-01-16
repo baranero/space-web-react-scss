@@ -25,8 +25,8 @@ const CrewItem = (props) => {
             <div className="description">
                 <p>{props.description}</p>
             </div>
-            <div className='navigate'>
-                <ul>
+            <div className='navigate-crew'>
+                <ul className='navigate-dot-list'>
                     {props.data.map((item) => {
                         if (item.name === props.style) {
                             return <input className='active-dot' key={item.id} onClick={handleCrew} name={item.name} value={item.name} type="button"/>

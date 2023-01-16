@@ -7,7 +7,7 @@ import HomePage from './components/HomePage/HomePage';
 import { moonsData, crewsData, technologiesData } from './data'
 import homepage from "./images/homepage-background.jpg"
 import destination from "./images/destination-background.jpg"
-import crew from "./images/crew-background.png"
+import crew from "./images/crew-background.jpg"
 import Crew from './components/Crew/Crew';
 
 function App() {
