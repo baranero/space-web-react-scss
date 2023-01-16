@@ -16,9 +16,17 @@ const DestinationItem = (props) => {
         </div>
         <div className='navigate'>
             <ul>
-                {props.data.map((props) => (
-                    <input key={props.id} onClick={handleMoon} name={props.name} value={props.name} type="button"/>
-                ))}
+                {props.data.map((item) => {
+                    if (item.name === "MOON") {
+                        return <input className='active' key={item.id} onClick={handleMoon} name={item.name} value={item.name} type="button"/>
+                    } 
+                    if (item.name !== "MOON") {
+                        return <input className='unactive' key={item.id} onClick={handleMoon} name={item.name} value={item.name} type="button"/>
+                    }
+                    
+                }
+                    
+                )}
             </ul>
         </div>
         <div className='name'>

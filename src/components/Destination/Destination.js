@@ -26,6 +26,7 @@ const Destination = (props) => {
                     image={item.image}
                     travel={item.travel}
                     onPickedMoon={pickedMoonHandler}
+                    
                 />
             ))}
 
