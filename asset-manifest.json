@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/space-web-react-scss/static/css/main.793185a1.css",
-    "main.js": "/space-web-react-scss/static/js/main.fafdc111.js",
+    "main.js": "/space-web-react-scss/static/js/main.c5525215.js",
     "static/js/787.79b79de9.chunk.js": "/space-web-react-scss/static/js/787.79b79de9.chunk.js",
     "static/media/technology-2.png": "/space-web-react-scss/static/media/technology-2.ffbe5cf65750f69fb855.png",
     "static/media/crew-c.png": "/space-web-react-scss/static/media/crew-c.184799b1b35e8f826302.png",
@@ -22,11 +22,11 @@
     "index.html": "/space-web-react-scss/index.html",
     "static/media/hamburger-menu.svg": "/space-web-react-scss/static/media/hamburger-menu.f2a510537ea953746aee741b0c7200de.svg",
     "main.793185a1.css.map": "/space-web-react-scss/static/css/main.793185a1.css.map",
-    "main.fafdc111.js.map": "/space-web-react-scss/static/js/main.fafdc111.js.map",
+    "main.c5525215.js.map": "/space-web-react-scss/static/js/main.c5525215.js.map",
     "787.79b79de9.chunk.js.map": "/space-web-react-scss/static/js/787.79b79de9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.793185a1.css",
-    "static/js/main.fafdc111.js"
+    "static/js/main.c5525215.js"
   ]
 }
