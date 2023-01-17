@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.sass';
 import Destination from './components/Destination/Destination';
 import Header from './components/Header/Header';
@@ -44,11 +44,11 @@ function App() {
 
   useEffect(() => {
     window.addEventListener("resize", handleResize)
-  })
+  }, [])
 
   return (
 
-      <BrowserRouter>
+      <HashRouter>
         <div className='App' style={{ backgroundImage: background ? `url(${background})` : `url(${homepageBg})` }} >
           <Header
             onBackground={setBackground} 
@@ -75,7 +75,7 @@ function App() {
             <Route path='/technology' element={<Technology data={technologiesData}/>}/>
           </Routes>
           </div>
-      </BrowserRouter>
+      </HashRouter>
 
   );
 }
