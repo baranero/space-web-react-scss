@@ -1,15 +1,16 @@
-import { Fragment, useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.sass';
 import Destination from './components/Destination/Destination';
 import Header from './components/Header/Header';
 import HomePage from './components/HomePage/HomePage';
-import {moonsData} from './data'
+import { moonsData, crewsData, technologiesData } from './data'
 import homepage from "./images/homepage-background.jpg"
 import destination from "./images/destination-background.jpg"
-
-
-console.log(moonsData);
+import crew from "./images/crew-background.jpg"
+import technology from "./images/technology-background.jpg"
+import Crew from './components/Crew/Crew';
+import Technology from './components/Technology/Technology';
 
 function App() {
 
@@ -29,10 +30,28 @@ function App() {
 
       <BrowserRouter>
         <div className='App' style={{ backgroundImage: background ? `url(${background})` : `url(${homepage})` }} >
-          <Header onBackground={setBackground} destination={destination} homepage={homepage} />
-          <Routes>``
-            <Route path='/' element={<HomePage onBackground={setBackground} destination={destination} homepage={homepage} />}/>
+          <Header
+            onBackground={setBackground} 
+            destination={destination} 
+            homepage={homepage}
+            crew={crew}
+            technology={technology}
+          />
+          <Routes>
+            <Route
+              path='/' 
+              element={
+                <HomePage 
+                  onBackground={setBackground} 
+                  destination={destination} 
+                  homepage={homepage}
+                  crew={crew}
+                  technology={technology}
+                />}
+            />
             <Route path='/destination' element={<Destination data={moonsData}/>}/>
+            <Route path='/crew' element={<Crew data={crewsData}/>}/>
+            <Route path='/technology' element={<Technology data={technologiesData}/>}/>
           </Routes>
           </div>
       </BrowserRouter>
