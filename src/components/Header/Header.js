@@ -37,7 +37,7 @@ const Header = (props) => {
                     >
                         <Link
                             className={location.pathname.includes('/') && 
-                            location.pathname.length <= 1 ? 
+                            location.pathname.length <= 2 ? 
                             "active" : "unactive"}  
                             onClick={() => {props.onBackground(props.homepage)}}
                             to="/"><span>00</span>HOME
