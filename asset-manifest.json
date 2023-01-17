@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/space-web-react/static/css/main.0dd519e8.css",
+    "main.js": "/space-web-react/static/js/main.1dfa129b.js",
+    "static/js/787.79b79de9.chunk.js": "/space-web-react/static/js/787.79b79de9.chunk.js",
+    "static/media/technology-2.png": "/space-web-react/static/media/technology-2.ffbe5cf65750f69fb855.png",
+    "static/media/crew-c.png": "/space-web-react/static/media/crew-c.184799b1b35e8f826302.png",
+    "static/media/crew-d.png": "/space-web-react/static/media/crew-d.a621b868b4d984fa6a8e.png",
+    "static/media/background-tablet.jpg": "/space-web-react/static/media/background-tablet.6f215278bd43cd76b71c.jpg",
+    "static/media/technology-1.png": "/space-web-react/static/media/technology-1.4bc5f5b1d96c95782503.png",
+    "static/media/crew-a.png": "/space-web-react/static/media/crew-a.9c17b30ccff19a61db0f.png",
+    "static/media/crew-b.png": "/space-web-react/static/media/crew-b.ff4f33dd37e72b90b00e.png",
+    "static/media/technology-3.png": "/space-web-react/static/media/technology-3.317e9bb82d40cd0f5766.png",
+    "static/media/europa.png": "/space-web-react/static/media/europa.7b27784afe432eb131ea.png",
+    "static/media/moon.png": "/space-web-react/static/media/moon.aa8a275d960d273c2b58.png",
+    "static/media/mars.png": "/space-web-react/static/media/mars.c9f0604e2089ecd562dc.png",
+    "static/media/destination-background.jpg": "/space-web-react/static/media/destination-background.bf9d9b600321ad96a37e.jpg",
+    "static/media/homepage-background.jpg": "/space-web-react/static/media/homepage-background.69a66e7617ecce312320.jpg",
+    "static/media/titan.png": "/space-web-react/static/media/titan.8ac1236fe039cb5d5386.png",
+    "static/media/technology-background.jpg": "/space-web-react/static/media/technology-background.22e2f5829d8135c15b09.jpg",
+    "static/media/crew-background.jpg": "/space-web-react/static/media/crew-background.308f33adb914c83def02.jpg",
+    "index.html": "/space-web-react/index.html",
+    "static/media/hamburger-menu.svg": "/space-web-react/static/media/hamburger-menu.f2a510537ea953746aee741b0c7200de.svg",
+    "main.0dd519e8.css.map": "/space-web-react/static/css/main.0dd519e8.css.map",
+    "main.1dfa129b.js.map": "/space-web-react/static/js/main.1dfa129b.js.map",
+    "787.79b79de9.chunk.js.map": "/space-web-react/static/js/787.79b79de9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dd519e8.css",
+    "static/js/main.1dfa129b.js"
+  ]
+}
