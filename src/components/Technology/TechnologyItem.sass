@@ -4,9 +4,9 @@
 .container-technology
     display: grid
     grid-template-columns: 1fr 4fr 5fr
-    grid-auto-rows: 1fr 50px 80px 200px
+    grid-auto-rows: 1fr 1fr 1fr 250px
     position: absolute
-    bottom: 100px
+    bottom: 10%
     left: 10%
     top: 180px
     color: $color-white
@@ -25,7 +25,8 @@
         grid-row: 2/3
         @extend %subhead-3
         color: $color-silver
-        margin-bottom: 30px
+        margin-top: 100px
+        margin-bottom: 0px
     
     .image
         grid-column: 3/4
@@ -39,7 +40,7 @@
     .type
         grid-column: 2/3
         grid-row: 3/4
-        
+
         h3
             @extend %head-3
             font-weight: 400
@@ -62,8 +63,8 @@
             display: flex
             flex-direction: column
             padding: 0
-            margin: 0
-            height: 100%
+            margin: 100px 0 0 0
+            height: 390px
             justify-content: space-between
 
             input
