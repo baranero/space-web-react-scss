@@ -16,6 +16,9 @@ const CrewItem = (props) => {
             <div className='image'>
                 <img src={props.image} alt="Crew" />
             </div>
+            <div className="line-cont">
+                <hr className='line'/>
+            </div>
             <div className='function'>
                 <h4>{props.function}</h4>
             </div>

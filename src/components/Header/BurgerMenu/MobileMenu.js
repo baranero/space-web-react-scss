@@ -8,7 +8,7 @@ const MobileMenu = (props) => {
     <Fragment>
         <div onClick={props.onClose} className="close"></div>
         <ul className='mobile__menu'>
-            <li
+            <li onClick={props.onClose}
                 >
                     <Link
                         className={location.pathname.includes('/') &&
@@ -18,7 +18,7 @@ const MobileMenu = (props) => {
                         to="/"><span>00</span>HOME
                     </Link>
             </li>
-            <li
+            <li onClick={props.onClose}
                 >
                     <Link
                         className={location.pathname.includes("/destination") ?
@@ -27,7 +27,7 @@ const MobileMenu = (props) => {
                         to="/destination"><span>01</span>DESTINATION
                     </Link>
             </li>
-            <li
+            <li onClick={props.onClose}
                 >
                     <Link
                         className={location.pathname.includes("/crew") ?
@@ -36,7 +36,7 @@ const MobileMenu = (props) => {
                         to="/crew"><span>02</span>CREW
                     </Link>
             </li>
-            <li
+            <li onClick={props.onClose}
                 >
                     <Link
                         className={location.pathname.includes("/technology") ?
