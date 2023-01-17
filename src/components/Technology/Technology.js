@@ -2,18 +2,19 @@ import { Fragment, useState } from "react"
 import TechnologyItem from "./TechnologyItem"
 
 const Technology = (props) => {
-    const [pickedTechnology, setPickedTechnology] = useState("DOUGLAS HURLEY")
+    const [pickedTechnology, setPickedTechnology] = useState('1')
 
     const pickedTechnologyHandler = (technology) => {
         setPickedTechnology(technology)
     }
 
     const filteredTechnology = props.data.filter(technology => {
-        return Technology.name === pickedTechnology
+        return technology.id === pickedTechnology
     })
 
     console.log(filteredTechnology);
     console.log(pickedTechnology);
+    // console.log(props.data);
 
     return (
         <Fragment>
@@ -22,12 +23,11 @@ const Technology = (props) => {
                     data={props.data}
                     key={item.id}
                     id={item.id}
-                    name={item.name}
+                    name={item.type}
                     description={item.description}
-                    function={item.function}
                     image={item.image}
                     onPickedTechnology={pickedTechnologyHandler}
-                    style={item.name}
+                    style={item.id}
                     mark={item.mark}
                 />
             ))}

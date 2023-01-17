@@ -1,0 +1,86 @@
+@import '../../styles/_variables'
+@import '../../styles/__fonts'
+
+.container-technology
+    display: grid
+    grid-template-columns: 1fr 4fr 5fr
+    grid-auto-rows: 1fr 50px 80px 200px
+    position: absolute
+    bottom: 100px
+    left: 10%
+    top: 180px
+    color: $color-white
+    margin: 0
+
+    .title
+        @extend %head-5
+        grid-column: 1/4
+        grid-row: 1/2
+
+        span
+            opacity: 25%
+
+    .subtitle
+        grid-column: 2/3
+        grid-row: 2/3
+        @extend %subhead-3
+        color: $color-silver
+        margin-bottom: 30px
+    
+    .image
+        grid-column: 3/4
+        grid-row: 1/6
+        justify-self: right
+        align-self: center
+
+        img
+            max-width: 100%
+    
+    .type
+        grid-column: 2/3
+        grid-row: 3/4
+        
+        h3
+            @extend %head-3
+            font-weight: 400
+            margin: 0
+    
+    .description
+        grid-column: 2/3
+        grid-row: 4/5
+        @extend %bodytext
+        color: $color-silver
+        padding-right: 15% 
+        p
+            margin-bottom: 0
+
+    .navigate-technology
+        grid-column: 1/2
+        grid-row: 2/5
+
+        .navigate-dot-list
+            display: flex
+            flex-direction: column
+            padding: 0
+            margin: 0
+            height: 100%
+            justify-content: space-between
+
+            input
+                height: 80px
+                width: 80px
+                margin: 0
+                border-radius: 100%
+                @extend %head-4
+            
+            .active-dot
+                background: $color-white
+                color: $color-black
+                border: none
+            
+            .unactive-dot
+                background: #ffffff00
+                border: 1px solid #ffffff57
+
+            .unactive-dot:hover
+                border-color: $color-white

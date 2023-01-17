@@ -6,33 +6,31 @@ const TechnologyItem = (props) => {
         console.log(event.target.value);
     }
 
-    console.log(props.data);
-
     return (
-        <section key={props.id} className='container-crew'>
+        <section key={props.id} className='container-technology'>
             <div className='title'>
-                <h5><span>02</span> MEET YOUR Technology</h5>
+                <h5><span>03</span> SPACE LAUNCH 101</h5>
             </div>
             <div className='image'>
                 <img src={props.image} alt="Technology" />
             </div>
-            <div className='function'>
-                <h4>{props.function}</h4>
+            <div className='subtitle'>
+                <h5>THE TERMINOLOGY...</h5>
             </div>
-            <div className='name'>
+            <div className='type'>
                 <h3>{props.name}</h3>
             </div>
             <div className="description">
                 <p>{props.description}</p>
             </div>
-            <div className='navigate-crew'>
+            <div className='navigate-technology'>
                 <ul className='navigate-dot-list'>
                     {props.data.map((item) => {
-                        if (item.name === props.style) {
-                            return <input className='active-dot' key={item.id} onClick={handleTechnology} name={item.name} value={item.name} type="button"/>
+                        if (item.id === props.style) {
+                            return <input className='active-dot' key={item.id} onClick={handleTechnology} name={item.id} value={item.id} type="button"/>
                         } 
                         if (item.name !== props.style) {
-                            return <input className='unactive-dot' key={item.id} onClick={handleTechnology} name={item.name} value={item.name} type="button"/>
+                            return <input className='unactive-dot' key={item.id} onClick={handleTechnology} name={item.id} value={item.id} type="button"/>
                         }
                         }   
                     )}

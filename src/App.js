@@ -8,7 +8,7 @@ import { moonsData, crewsData, technologiesData } from './data'
 import homepage from "./images/homepage-background.jpg"
 import destination from "./images/destination-background.jpg"
 import crew from "./images/crew-background.jpg"
-import technology from "./images/technology-background-2.jpg"
+import technology from "./images/technology-background.jpg"
 import Crew from './components/Crew/Crew';
 import Technology from './components/Technology/Technology';
 
@@ -37,7 +37,7 @@ function App() {
             crew={crew}
             technology={technology}
           />
-          <Routes>``
+          <Routes>
             <Route
               path='/' 
               element={

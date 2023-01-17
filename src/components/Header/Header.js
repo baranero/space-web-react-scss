@@ -5,7 +5,6 @@ import './Header.sass'
 const Header = (props) => {
 
     const location = useLocation()
-    console.log(location);
 
     return (
         <header>
