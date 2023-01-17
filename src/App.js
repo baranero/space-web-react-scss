@@ -8,7 +8,9 @@ import { moonsData, crewsData, technologiesData } from './data'
 import homepage from "./images/homepage-background.jpg"
 import destination from "./images/destination-background.jpg"
 import crew from "./images/crew-background.jpg"
+import technology from "./images/technology-background-2.jpg"
 import Crew from './components/Crew/Crew';
+import Technology from './components/Technology/Technology';
 
 function App() {
 
@@ -33,6 +35,7 @@ function App() {
             destination={destination} 
             homepage={homepage}
             crew={crew}
+            technology={technology}
           />
           <Routes>``
             <Route
@@ -43,10 +46,12 @@ function App() {
                   destination={destination} 
                   homepage={homepage}
                   crew={crew}
+                  technology={technology}
                 />}
             />
             <Route path='/destination' element={<Destination data={moonsData}/>}/>
             <Route path='/crew' element={<Crew data={crewsData}/>}/>
+            <Route path='/technology' element={<Technology data={technologiesData}/>}/>
           </Routes>
           </div>
       </BrowserRouter>

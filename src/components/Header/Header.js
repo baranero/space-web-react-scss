@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import logo from "..//..//images/logo.png"
 import './Header.sass'
@@ -38,7 +37,14 @@ const Header = (props) => {
                             to="/crew"><span>02</span>CREW
                         </Link>
                 </li>
-                <li className="unactive"><span>03</span>TECHNOLOGY</li>
+                <li 
+                    className={location.pathname.includes("/technology") ?
+                    "active" : "unactive"}>
+                        <Link 
+                            onClick={() => {props.onBackground(props.technology)}}
+                            to="/technology"><span>03</span>TECHNOLOGY
+                        </Link>
+                </li>
             </ul>
         </header>
     )
