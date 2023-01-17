@@ -9,7 +9,7 @@ const CrewItem = (props) => {
     console.log(props.data);
 
     return (
-        <section key={props.id} className='container'>
+        <section key={props.id} className='container-crew'>
             <div className='title'>
                 <h5><span>02</span> MEET YOUR CREW</h5>
             </div>

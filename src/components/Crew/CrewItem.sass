@@ -1,18 +1,70 @@
 @import '../../styles/_variables'
 @import '../../styles/__fonts'
 
-.container
+.container-crew
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-auto-rows: 2fr 1fr 1fr 150px 2fr
+    position: absolute
+    bottom: 0
+    left: 10%
+
+    top: 180px
+    color: $color-white
+    margin: 0
+
+    .title
+         @extend %head-5
+
+    .image
+        grid-column: 2/3
+        grid-row: 1/6
+        justify-self: center
+        align-self: flex-end
+
+        img
+            max-width: 100%
+
+            margin: 0
+    
+    .function
+        grid-column: 1/2
+        grid-row: 2/3
+        margin-top: 50px
+
+        h4
+            @extend %head-4
+            color: $color-silver
+    .name
+        grid-column: 1/2
+        grid-row: 3/4
+
+        h3
+            @extend %head-3
+            font-weight: 400
+            margin: 0
+
+    .description
+        grid-column: 1/2
+        grid-row: 4/5
+        padding-right: 20%
+        @extend %bodytext
+
     .navigate-crew
+        grid-column: 1/2
+        grid-row: 5/6
+        align-self: flex-end
+        margin-bottom: 80px
         .navigate-dot-list
             display: flex
             align-items: center
+            padding: 0
             input
                 color: #ffffff00
-                height: 35px
-                width: 35px
-                
+                height: 15px
+                width: 15px
+                margin: 0 10px
                 border-radius: 100%
-                padding: 0
             .active-dot
                 background: $color-white
                 border: none
