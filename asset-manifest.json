@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/space-web-react-scss/static/css/main.7e52c70b.css",
-    "main.js": "/space-web-react-scss/static/js/main.c5525215.js",
+    "main.css": "/space-web-react-scss/static/css/main.1b8dabc6.css",
+    "main.js": "/space-web-react-scss/static/js/main.ca15a83f.js",
     "static/js/787.79b79de9.chunk.js": "/space-web-react-scss/static/js/787.79b79de9.chunk.js",
-    "static/media/technology-2.png": "/space-web-react-scss/static/media/technology-2.ffbe5cf65750f69fb855.png",
     "static/media/crew-c.png": "/space-web-react-scss/static/media/crew-c.184799b1b35e8f826302.png",
     "static/media/crew-d.png": "/space-web-react-scss/static/media/crew-d.a621b868b4d984fa6a8e.png",
-    "static/media/background-tablet.jpg": "/space-web-react-scss/static/media/background-tablet.6f215278bd43cd76b71c.jpg",
-    "static/media/technology-1.png": "/space-web-react-scss/static/media/technology-1.4bc5f5b1d96c95782503.png",
-    "static/media/crew-a.png": "/space-web-react-scss/static/media/crew-a.9c17b30ccff19a61db0f.png",
+    "static/media/crew-a.png": "/space-web-react-scss/static/media/crew-a.f6686139d6b65546956f.png",
     "static/media/crew-b.png": "/space-web-react-scss/static/media/crew-b.ff4f33dd37e72b90b00e.png",
-    "static/media/technology-3.png": "/space-web-react-scss/static/media/technology-3.317e9bb82d40cd0f5766.png",
+    "static/media/technology-background.jpg": "/space-web-react-scss/static/media/technology-background.4cebe70110338e9cccc0.jpg",
     "static/media/europa.png": "/space-web-react-scss/static/media/europa.7b27784afe432eb131ea.png",
     "static/media/moon.png": "/space-web-react-scss/static/media/moon.aa8a275d960d273c2b58.png",
     "static/media/mars.png": "/space-web-react-scss/static/media/mars.c9f0604e2089ecd562dc.png",
-    "static/media/destination-background.jpg": "/space-web-react-scss/static/media/destination-background.bf9d9b600321ad96a37e.jpg",
+    "static/media/destination-background.jpg": "/space-web-react-scss/static/media/destination-background.2a6b08af067832b6e823.jpg",
     "static/media/homepage-background.jpg": "/space-web-react-scss/static/media/homepage-background.69a66e7617ecce312320.jpg",
     "static/media/titan.png": "/space-web-react-scss/static/media/titan.8ac1236fe039cb5d5386.png",
-    "static/media/technology-background.jpg": "/space-web-react-scss/static/media/technology-background.22e2f5829d8135c15b09.jpg",
+    "static/media/background-tablet.jpg": "/space-web-react-scss/static/media/background-tablet.f85eb24b57e78e52ccb9.jpg",
+    "static/media/technology-2.jpg": "/space-web-react-scss/static/media/technology-2.4f416dc08dc3bb298e96.jpg",
     "static/media/crew-background.jpg": "/space-web-react-scss/static/media/crew-background.308f33adb914c83def02.jpg",
+    "static/media/technology-3.jpg": "/space-web-react-scss/static/media/technology-3.db13ce4e51994f78c3b9.jpg",
+    "static/media/technology-1.jpg": "/space-web-react-scss/static/media/technology-1.2f1a64dfe79fd80cc410.jpg",
     "index.html": "/space-web-react-scss/index.html",
     "static/media/hamburger-menu.svg": "/space-web-react-scss/static/media/hamburger-menu.f2a510537ea953746aee741b0c7200de.svg",
-    "main.7e52c70b.css.map": "/space-web-react-scss/static/css/main.7e52c70b.css.map",
-    "main.c5525215.js.map": "/space-web-react-scss/static/js/main.c5525215.js.map",
+    "main.1b8dabc6.css.map": "/space-web-react-scss/static/css/main.1b8dabc6.css.map",
+    "main.ca15a83f.js.map": "/space-web-react-scss/static/js/main.ca15a83f.js.map",
     "787.79b79de9.chunk.js.map": "/space-web-react-scss/static/js/787.79b79de9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e52c70b.css",
-    "static/js/main.c5525215.js"
+    "static/css/main.1b8dabc6.css",
+    "static/js/main.ca15a83f.js"
   ]
 }
