@@ -1,8 +1,8 @@
 import './HomePage.sass'
 import { Fragment } from 'react'
-import explore from '../../images/oval.png'
+import explore from '../../images/oval.jpg'
 
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const HomePage = (props) => {
 

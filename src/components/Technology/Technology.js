@@ -12,10 +12,6 @@ const Technology = (props) => {
         return technology.id === pickedTechnology
     })
 
-    console.log(filteredTechnology);
-    console.log(pickedTechnology);
-    // console.log(props.data);
-
     return (
         <Fragment>
             {filteredTechnology.map((item) => (
