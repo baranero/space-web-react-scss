@@ -1,6 +1,6 @@
 # Space Web
 
-This project was created using React.
+Website design made on the basis of a graphic design. Fully responsive. The technologies used are React with React Router and Sass.
 
 ## Features
 The sky is the limit...
