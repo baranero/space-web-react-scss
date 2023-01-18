@@ -3,10 +3,7 @@ import './CrewItem.sass';
 const CrewItem = (props) => {
     const handleCrew = (event) => {
         props.onPickedCrew(event.target.value)
-        console.log(event.target.value);
     }
-
-    console.log(props.data);
 
     return (
         <section key={props.id} className='container-crew'>

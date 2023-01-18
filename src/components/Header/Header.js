@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import logo from "..//..//images/logo.png"
 import BurgerMenu from "./BurgerMenu/BurgerMenu"
@@ -9,13 +9,15 @@ const Header = (props) => {
 
     const location = useLocation()
 
+    useEffect(() => {
+        props.onLocation(location.pathname)
+    }) 
+        
     const [showMenu, setShowMenu] = useState(false)
 
     const menuHandler = () => {
         setShowMenu(prevState => !prevState)
     }
-
-    console.log(showMenu);
 
     return (
         <header>
@@ -40,6 +42,7 @@ const Header = (props) => {
                             location.pathname.length <= 2 ? 
                             "active" : "unactive"}  
                             onClick={() => {props.onBackground(props.homepage)}}
+                            
                             to="/"><span>00</span>HOME
                         </Link>
                 </li>

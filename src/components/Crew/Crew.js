@@ -12,9 +12,6 @@ const Crew = (props) => {
         return crew.name === pickedCrew
     })
 
-    console.log(filteredCrew);
-    console.log(pickedCrew);
-
     return (
         <Fragment>
             {filteredCrew.map((item) => (

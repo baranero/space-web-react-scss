@@ -3,7 +3,6 @@ import './TechnologyItem.sass';
 const TechnologyItem = (props) => {
     const handleTechnology = (event) => {
         props.onPickedTechnology(event.target.value)
-        console.log(event.target.value);
     }
 
     return (
