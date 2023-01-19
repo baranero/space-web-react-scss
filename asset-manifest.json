@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-web-react-scss/static/css/main.1b8dabc6.css",
-    "main.js": "/space-web-react-scss/static/js/main.ca15a83f.js",
+    "main.css": "/space-web-react-scss/static/css/main.9f1c840b.css",
+    "main.js": "/space-web-react-scss/static/js/main.79d55ad8.js",
     "static/js/787.79b79de9.chunk.js": "/space-web-react-scss/static/js/787.79b79de9.chunk.js",
     "static/media/crew-c.png": "/space-web-react-scss/static/media/crew-c.184799b1b35e8f826302.png",
     "static/media/crew-d.png": "/space-web-react-scss/static/media/crew-d.a621b868b4d984fa6a8e.png",
@@ -20,13 +20,13 @@
     "static/media/technology-3.jpg": "/space-web-react-scss/static/media/technology-3.db13ce4e51994f78c3b9.jpg",
     "static/media/technology-1.jpg": "/space-web-react-scss/static/media/technology-1.2f1a64dfe79fd80cc410.jpg",
     "index.html": "/space-web-react-scss/index.html",
-    "static/media/hamburger-menu.svg": "/space-web-react-scss/static/media/hamburger-menu.f2a510537ea953746aee741b0c7200de.svg",
-    "main.1b8dabc6.css.map": "/space-web-react-scss/static/css/main.1b8dabc6.css.map",
-    "main.ca15a83f.js.map": "/space-web-react-scss/static/js/main.ca15a83f.js.map",
+    "static/media/hamburger-menu.svg": "/space-web-react-scss/static/media/hamburger-menu.c3c797dc50ccbb7b2cffebb495543eef.svg",
+    "main.9f1c840b.css.map": "/space-web-react-scss/static/css/main.9f1c840b.css.map",
+    "main.79d55ad8.js.map": "/space-web-react-scss/static/js/main.79d55ad8.js.map",
     "787.79b79de9.chunk.js.map": "/space-web-react-scss/static/js/787.79b79de9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b8dabc6.css",
-    "static/js/main.ca15a83f.js"
+    "static/css/main.9f1c840b.css",
+    "static/js/main.79d55ad8.js"
   ]
 }
